@@ -19,23 +19,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-| :--- | :---: | ---: |
-| <img src="assets/latte/latte_home.webp"/> | <img src="assets/latte/latte_apps.webp"/> | <img src="assets/latte/latte_widgets.webp"/> |
+<img src="assets/latte/latte.webp">
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-| :--- | :---: | ---: |
-| <img src="assets/frappe/frappe_home.webp"/> | <img src="assets/frappe/frappe_apps.webp"/> | <img src="assets/frappe/frappe_widgets.webp"/>
+<img src="assets/frappe/frappe.webp">
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-| :--- | :---: | ---: |
-| <img src="assets/macchiato/macchiato_home.webp"/> | <img src="assets/macchiato/macchiato_apps.webp"/> | <img src="assets/macchiato/macchiato_widgets.webp"/> |
+<img src="assets/macchiato/macchiato.webp">
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-| :--- | :---: | ---: |
-| <img src="assets/mocha/mocha_home.webp"/>| <img src="assets/mocha/mocha_apps.webp"/>| <img src="assets/mocha/mocha_widgets.webp"/> |
+<img src="assets/mocha/mocha.webp">
 </details>
 
 ## Usage
