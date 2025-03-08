@@ -1,1 +1,157 @@
-{"name":"Catppuccin Macchiato Sky","corePalette":{"primary":-3430665,"secondary":-3430665,"tertiary":null,"neutral":-15198171,"neutralVariant":-13553084,"error":-816216},"darkColorScheme":{"primary":["#","#ffa4d6e0"],"onPrimary":["#","#ff181926"],"primaryContainer":["#","#ff91d7e3"],"onPrimaryContainer":["#","#ff181926"],"secondary":["#","#ffa4d6e0"],"onSecondary":["#","#ff181926"],"secondaryContainer":["#","#ff91d7e3"],"onSecondaryContainer":["#","#ff181926"],"tertiary":["#","#ff91d7e3"],"onTertiary":["#","#ff181926"],"tertiaryContainer":["#","#ff68d4e4"],"onTertiaryContainer":["#","#ffa4d6e0"],"error":["#","#ffed8796"],"onError":["#","#fff82a50"],"errorContainer":["#","#fff15b74"],"onErrorContainer":["#","#ffe99ba6"],"surface":["#","#ff24273a"],"onSurface":["#","#ffcad3f5"],"onSurfaceVariant":["#","#ff91d7e3"],"outline":["#","#ff5b6078"],"outlineVariant":["#","#ff494d64"],"inverseSurface":["#","#ffeff1f5"],"inverseOnSurface":["#","#ff4c4f69"],"inversePrimary":["#","#ff04a5e5"],"surfaceDim":["#","#ff1e2030"],"surfaceBright":["#","#ff363a4f"],"surfaceContainerLowest":["#","#ff181926"],"surfaceContainerLow":["#","#ff1e2030"],"surfaceContainer":["#","#ff363a4f"],"surfaceContainerHigh":["#","#ff494d64"],"surfaceContainerHighest":["#","#ff494d64"],"background":["$","$n.6"],"onBackground":["#","#ffcad3f5"],"surfaceTint":["#","#ff24273a"],"scrim":["$","$n.0"],"surfaceVariant":["#","#ff24273a"]}}
+{
+  "name": "Catppuccin Macchiato Sky",
+  "corePalette": {
+    "primary": -3430665,
+    "secondary": -3430665,
+    "tertiary": null,
+    "neutral": -15198171,
+    "neutralVariant": -13553084,
+    "error": -816216
+  },
+  "darkColorScheme": {
+    "primary": [
+      "#",
+      "#ffa4d6e0"
+    ],
+    "onPrimary": [
+      "#",
+      "#ff181926"
+    ],
+    "primaryContainer": [
+      "#",
+      "#ff91d7e3"
+    ],
+    "onPrimaryContainer": [
+      "#",
+      "#ff181926"
+    ],
+    "secondary": [
+      "#",
+      "#ffa4d6e0"
+    ],
+    "onSecondary": [
+      "#",
+      "#ff181926"
+    ],
+    "secondaryContainer": [
+      "#",
+      "#ff91d7e3"
+    ],
+    "onSecondaryContainer": [
+      "#",
+      "#ff181926"
+    ],
+    "tertiary": [
+      "#",
+      "#ff91d7e3"
+    ],
+    "onTertiary": [
+      "#",
+      "#ff181926"
+    ],
+    "tertiaryContainer": [
+      "#",
+      "#ff68d4e4"
+    ],
+    "onTertiaryContainer": [
+      "#",
+      "#ffa4d6e0"
+    ],
+    "error": [
+      "#",
+      "#ffed8796"
+    ],
+    "onError": [
+      "#",
+      "#fff82a50"
+    ],
+    "errorContainer": [
+      "#",
+      "#fff15b74"
+    ],
+    "onErrorContainer": [
+      "#",
+      "#ffe99ba6"
+    ],
+    "surface": [
+      "#",
+      "#ff24273a"
+    ],
+    "onSurface": [
+      "#",
+      "#ffcad3f5"
+    ],
+    "onSurfaceVariant": [
+      "#",
+      "#ff91d7e3"
+    ],
+    "outline": [
+      "#",
+      "#ff5b6078"
+    ],
+    "outlineVariant": [
+      "#",
+      "#ff494d64"
+    ],
+    "inverseSurface": [
+      "#",
+      "#ffeff1f5"
+    ],
+    "inverseOnSurface": [
+      "#",
+      "#ff4c4f69"
+    ],
+    "inversePrimary": [
+      "#",
+      "#ff04a5e5"
+    ],
+    "surfaceDim": [
+      "#",
+      "#ff1e2030"
+    ],
+    "surfaceBright": [
+      "#",
+      "#ff363a4f"
+    ],
+    "surfaceContainerLowest": [
+      "#",
+      "#ff181926"
+    ],
+    "surfaceContainerLow": [
+      "#",
+      "#ff1e2030"
+    ],
+    "surfaceContainer": [
+      "#",
+      "#ff363a4f"
+    ],
+    "surfaceContainerHigh": [
+      "#",
+      "#ff494d64"
+    ],
+    "surfaceContainerHighest": [
+      "#",
+      "#ff494d64"
+    ],
+    "background": [
+      "$",
+      "$n.6"
+    ],
+    "onBackground": [
+      "#",
+      "#ffcad3f5"
+    ],
+    "surfaceTint": [
+      "#",
+      "#ff24273a"
+    ],
+    "scrim": [
+      "$",
+      "$n.0"
+    ],
+    "surfaceVariant": [
+      "#",
+      "#ff24273a"
+    ]
+  }
+}
