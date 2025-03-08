@@ -34,6 +34,14 @@ whiskers:
   {%- endif -%}
 {%- endmacro inverse-%}
 
+{%- macro theme()-%}
+  {%- if flavor.light -%}
+    light
+  {%- else -%}
+    dark
+  {%- endif -%}
+{%- endmacro theme -%}
+
 {
   "name": "Catppuccin {{ flavor.name }} {{ flavor.colors[accent].name }}",
   "corePalette": {
@@ -44,7 +52,7 @@ whiskers:
     "neutralVariant": -13553084,
     "error": -816216
   },
-  "darkColorScheme": {
+  "{{ self::theme() }}ColorScheme": {
     "primary": [
       "#",
       "#ff{{ self::tint(color=flavor.colors[accent], amt=1) }}"
