@@ -1,1 +1,157 @@
-{"name":"Catppuccin Mocha Blue","corePalette":{"primary":-3430665,"secondary":-3430665,"tertiary":null,"neutral":-15198171,"neutralVariant":-13553084,"error":-816216},"darkColorScheme":{"primary":["#","#ff9fbef5"],"onPrimary":["#","#ff11111b"],"primaryContainer":["#","#ff89b4fa"],"onPrimaryContainer":["#","#ff11111b"],"secondary":["#","#ff9fbef5"],"onSecondary":["#","#ff11111b"],"secondaryContainer":["#","#ff89b4fa"],"onSecondaryContainer":["#","#ff11111b"],"tertiary":["#","#ff89b4fa"],"onTertiary":["#","#ff11111b"],"tertiaryContainer":["#","#ff5d9eff"],"onTertiaryContainer":["#","#ff9fbef5"],"error":["#","#fff38ba8"],"onError":["#","#ffff2d70"],"errorContainer":["#","#fff85e8c"],"onErrorContainer":["#","#ffef9fb4"],"surface":["#","#ff1e1e2e"],"onSurface":["#","#ffcdd6f4"],"onSurfaceVariant":["#","#ff89b4fa"],"outline":["#","#ff585b70"],"outlineVariant":["#","#ff45475a"],"inverseSurface":["#","#ffeff1f5"],"inverseOnSurface":["#","#ff4c4f69"],"inversePrimary":["#","#ff1e66f5"],"surfaceDim":["#","#ff181825"],"surfaceBright":["#","#ff313244"],"surfaceContainerLowest":["#","#ff11111b"],"surfaceContainerLow":["#","#ff181825"],"surfaceContainer":["#","#ff313244"],"surfaceContainerHigh":["#","#ff45475a"],"surfaceContainerHighest":["#","#ff45475a"],"background":["$","$n.6"],"onBackground":["#","#ffcdd6f4"],"surfaceTint":["#","#ff1e1e2e"],"scrim":["$","$n.0"],"surfaceVariant":["#","#ff1e1e2e"]}}
+{
+  "name": "Catppuccin Mocha Blue",
+  "corePalette": {
+    "primary": -3430665,
+    "secondary": -3430665,
+    "tertiary": null,
+    "neutral": -15198171,
+    "neutralVariant": -13553084,
+    "error": -816216
+  },
+  "darkColorScheme": {
+    "primary": [
+      "#",
+      "#ff9fbef5"
+    ],
+    "onPrimary": [
+      "#",
+      "#ff11111b"
+    ],
+    "primaryContainer": [
+      "#",
+      "#ff89b4fa"
+    ],
+    "onPrimaryContainer": [
+      "#",
+      "#ff11111b"
+    ],
+    "secondary": [
+      "#",
+      "#ff9fbef5"
+    ],
+    "onSecondary": [
+      "#",
+      "#ff11111b"
+    ],
+    "secondaryContainer": [
+      "#",
+      "#ff89b4fa"
+    ],
+    "onSecondaryContainer": [
+      "#",
+      "#ff11111b"
+    ],
+    "tertiary": [
+      "#",
+      "#ff89b4fa"
+    ],
+    "onTertiary": [
+      "#",
+      "#ff11111b"
+    ],
+    "tertiaryContainer": [
+      "#",
+      "#ff5d9eff"
+    ],
+    "onTertiaryContainer": [
+      "#",
+      "#ff9fbef5"
+    ],
+    "error": [
+      "#",
+      "#fff38ba8"
+    ],
+    "onError": [
+      "#",
+      "#ffff2d70"
+    ],
+    "errorContainer": [
+      "#",
+      "#fff85e8c"
+    ],
+    "onErrorContainer": [
+      "#",
+      "#ffef9fb4"
+    ],
+    "surface": [
+      "#",
+      "#ff1e1e2e"
+    ],
+    "onSurface": [
+      "#",
+      "#ffcdd6f4"
+    ],
+    "onSurfaceVariant": [
+      "#",
+      "#ff89b4fa"
+    ],
+    "outline": [
+      "#",
+      "#ff585b70"
+    ],
+    "outlineVariant": [
+      "#",
+      "#ff45475a"
+    ],
+    "inverseSurface": [
+      "#",
+      "#ffeff1f5"
+    ],
+    "inverseOnSurface": [
+      "#",
+      "#ff4c4f69"
+    ],
+    "inversePrimary": [
+      "#",
+      "#ff1e66f5"
+    ],
+    "surfaceDim": [
+      "#",
+      "#ff181825"
+    ],
+    "surfaceBright": [
+      "#",
+      "#ff313244"
+    ],
+    "surfaceContainerLowest": [
+      "#",
+      "#ff11111b"
+    ],
+    "surfaceContainerLow": [
+      "#",
+      "#ff181825"
+    ],
+    "surfaceContainer": [
+      "#",
+      "#ff313244"
+    ],
+    "surfaceContainerHigh": [
+      "#",
+      "#ff45475a"
+    ],
+    "surfaceContainerHighest": [
+      "#",
+      "#ff45475a"
+    ],
+    "background": [
+      "$",
+      "$n.6"
+    ],
+    "onBackground": [
+      "#",
+      "#ffcdd6f4"
+    ],
+    "surfaceTint": [
+      "#",
+      "#ff1e1e2e"
+    ],
+    "scrim": [
+      "$",
+      "$n.0"
+    ],
+    "surfaceVariant": [
+      "#",
+      "#ff1e1e2e"
+    ]
+  }
+}

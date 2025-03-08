@@ -19,19 +19,19 @@
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="assets/latte/latte.webp"/>
+<img src="assets/latte/latte.webp">
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/frappe/frappe.webp"/>
+<img src="assets/frappe/frappe.webp">
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/macchiato/macchiato.webp"/>
+<img src="assets/macchiato/macchiato.webp">
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="assets/mocha/mocha.webp"/>
+<img src="assets/mocha/mocha.webp">
 </details>
 
 ## Usage
@@ -40,7 +40,16 @@
 2. Open Kvaesitso's setting and go to **Appearance** > **Color Scheme** and click the import button on top right.
 3. Select the downloaded flavor file.
 4. Click on **Import**
-> Make sure to use light theme for Latte and dark theme for the others.
+> [!IMPORTANT]
+> Make sure to use light theme when using Latte and dark theme for the three others.
+
+## 🙋 FAQ
+
+- Q: **_"Kvaesitso's settings are dark in when using Latte"_**\
+  A: Yes, it does this for some reason, I've tried fixiing it by I couldn't find the reason why it does so.
+
+- Q: **_"What's the icon theme used in the previews ?"_**\
+  A: It's called [Arcticons](https://github.com/Arcticons-Team/Arcticons), install the normal pack. Then go in Kvaesitso's settings, **Grid & icons** and enable "Themed icons".
 
 ## 💝 Thanks to
 
