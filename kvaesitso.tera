@@ -5,7 +5,6 @@ whiskers:
       - flavor
       - accent
     filename: "themes/{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.kvtheme"
-    hex_format: "{{r}}{{g}}{{b}}{{z}}"
 ---
 {%- macro tint(color, amt) -%}
   {{ color | add(lightness=amt*3) | add(hue=amt) | sub(saturation=amt*10) | get(key="hex") }}
@@ -16,34 +15,16 @@ whiskers:
 
 {%- macro inverse(color) -%}
   {%- if flavor.dark -%}
-    {%- if color == "base" -%}
-      {{ flavors.latte.colors.base.hex }}
-    {%- elif color == "text" -%}
-      {{ flavors.latte.colors.text.hex }}
-    {%- elif color == "accent" -%}
-      {{ flavors.latte.colors[accent].hex }}
-    {%- endif -%}
+    {{ flavors.latte.colors[color.identifier].hex }}
   {%- else -%}
-    {%- if color == "base" -%}
-      {{ flavors.mocha.colors.base.hex }}
-    {%- elif color == "text" -%}
-      {{ flavors.mocha.colors.text.hex }}
-    {%- elif color == "accent" -%}
-      {{ flavors.mocha.colors[accent].hex }}
-    {%- endif -%}
+    {{ flavors.mocha.colors[color.identifier].hex }}
   {%- endif -%}
 {%- endmacro inverse-%}
 
-{%- macro theme()-%}
-  {%- if flavor.light -%}
-    light
-  {%- else -%}
-    dark
-  {%- endif -%}
-{%- endmacro theme -%}
+{%- set accent = flavor.colors[accent] -%}
 
 {
-  "name": "Catppuccin {{ flavor.name }} {{ flavor.colors[accent].name }}",
+  "name": "Catppuccin {{ flavor.name }} {{ accent.name }}",
   "corePalette": {
     "primary": -3430665,
     "secondary": -3430665,
@@ -52,10 +33,10 @@ whiskers:
     "neutralVariant": -13553084,
     "error": -816216
   },
-  "{{ self::theme() }}ColorScheme": {
+  "{% if flavor.light %}light{% else %}dark{% endif %}ColorScheme": {
     "primary": [
       "#",
-      "#ff{{ self::tint(color=flavor.colors[accent], amt=1) }}"
+      "#ff{{ self::tint(color=accent, amt=1) }}"
     ],
     "onPrimary": [
       "#",
@@ -63,7 +44,7 @@ whiskers:
     ],
     "primaryContainer": [
       "#",
-      "#ff{{ flavor.colors[accent].hex }}"
+      "#ff{{ accent.hex }}"
     ],
     "onPrimaryContainer": [
       "#",
@@ -71,7 +52,7 @@ whiskers:
     ],
     "secondary": [
       "#",
-      "#ff{{ self::tint(color=flavor.colors[accent], amt=1) }}"
+      "#ff{{ self::tint(color=accent, amt=1) }}"
     ],
     "onSecondary": [
       "#",
@@ -79,7 +60,7 @@ whiskers:
     ],
     "secondaryContainer": [
       "#",
-      "#ff{{ flavor.colors[accent].hex }}"
+      "#ff{{ accent.hex }}"
     ],
     "onSecondaryContainer": [
       "#",
@@ -87,7 +68,7 @@ whiskers:
     ],
     "tertiary": [
       "#",
-      "#ff{{ flavor.colors[accent].hex }}"
+      "#ff{{ accent.hex }}"
     ],
     "onTertiary": [
       "#",
@@ -95,11 +76,11 @@ whiskers:
     ],
     "tertiaryContainer": [
       "#",
-      "#ff{{ self::shade(color=flavor.colors[accent], amt=1) }}"
+      "#ff{{ self::shade(color=accent, amt=1) }}"
     ],
     "onTertiaryContainer": [
       "#",
-      "#ff{{ self::tint(color=flavor.colors[accent], amt=1) }}"
+      "#ff{{ self::tint(color=accent, amt=1) }}"
     ],
     "error": [
       "#",
@@ -127,7 +108,7 @@ whiskers:
     ],
     "onSurfaceVariant": [
       "#",
-      "#ff{{ flavor.colors[accent].hex }}"
+      "#ff{{ accent.hex }}"
     ],
     "outline": [
       "#",
@@ -139,15 +120,15 @@ whiskers:
     ],
     "inverseSurface": [
       "#",
-      "#ff{{ self::inverse(color="base") }}"
+      "#ff{{ self::inverse(color=base) }}"
     ],
     "inverseOnSurface": [
       "#",
-      "#ff{{ self::inverse(color="text") }}"
+      "#ff{{ self::inverse(color=text) }}"
     ],
     "inversePrimary": [
       "#",
-      "#ff{{ self::inverse(color="accent") }}"
+      "#ff{{ self::inverse(color=accent) }}"
     ],
     "surfaceDim": [
       "#",
