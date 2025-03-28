@@ -96,7 +96,7 @@ whiskers:
     ],
     "onErrorContainer": [
       "#",
-      "#ff{{ self::tint(color=red, amt=1) }}"
+      "#ff{{ crust.hex }}"
     ],
     "surface": [
       "#",
