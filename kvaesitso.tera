@@ -26,17 +26,17 @@ whiskers:
 {
   "name": "Catppuccin {{ flavor.name }} {{ accent.name }}",
   "corePalette": {
-    "primary": -3430665,
-    "secondary": -3430665,
+    "primary": null,
+    "secondary": null,
     "tertiary": null,
-    "neutral": -15198171,
-    "neutralVariant": -13553084,
-    "error": -816216
+    "neutral": null,
+    "neutralVariant": null,
+    "error": null
   },
   "{% if flavor.light %}light{% else %}dark{% endif %}ColorScheme": {
     "primary": [
       "#",
-      "#ff{{ self::tint(color=accent, amt=1) }}"
+      "#ff{{ accent.hex }}"
     ],
     "onPrimary": [
       "#",
@@ -52,7 +52,7 @@ whiskers:
     ],
     "secondary": [
       "#",
-      "#ff{{ self::tint(color=accent, amt=1) }}"
+      "#ff{{ accent.hex }}"
     ],
     "onSecondary": [
       "#",
@@ -76,7 +76,7 @@ whiskers:
     ],
     "tertiaryContainer": [
       "#",
-      "#ff{{ self::shade(color=accent, amt=1) }}"
+      "#ff{{ accent.hex }}"
     ],
     "onTertiaryContainer": [
       "#",
@@ -88,7 +88,7 @@ whiskers:
     ],
     "onError": [
       "#",
-      "#ff{{ self::shade(color=red, amt=2) }}"
+      "#ff{{ crust.hex }}"
     ],
     "errorContainer": [
       "#",
@@ -144,19 +144,19 @@ whiskers:
     ],
     "surfaceContainerLow": [
       "#",
-      "#ff{{ mantle.hex }}"
+      "#ff{{ self::tint(color=mantle, amt=1) }}"
     ],
     "surfaceContainer": [
       "#",
-      "#ff{{ surface0.hex }}"
+      "#ff{{ mantle.hex }}"
     ],
     "surfaceContainerHigh": [
       "#",
-      "#ff{{ surface1.hex }}"
+      "#ff{{ base.hex }}"
     ],
     "surfaceContainerHighest": [
       "#",
-      "#ff{{ surface1.hex }}"
+      "#ff{{ surface0.hex }}"
     ],
     "background": [
       "$",

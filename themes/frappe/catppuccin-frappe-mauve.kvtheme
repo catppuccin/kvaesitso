@@ -1,17 +1,17 @@
 {
   "name": "Catppuccin Frappé Mauve",
   "corePalette": {
-    "primary": -3430665,
-    "secondary": -3430665,
+    "primary": null,
+    "secondary": null,
     "tertiary": null,
-    "neutral": -15198171,
-    "neutralVariant": -13553084,
-    "error": -816216
+    "neutral": null,
+    "neutralVariant": null,
+    "error": null
   },
   "darkColorScheme": {
     "primary": [
       "#",
-      "#ffd1b0e4"
+      "#ffca9ee6"
     ],
     "onPrimary": [
       "#",
@@ -27,7 +27,7 @@
     ],
     "secondary": [
       "#",
-      "#ffd1b0e4"
+      "#ffca9ee6"
     ],
     "onSecondary": [
       "#",
@@ -51,7 +51,7 @@
     ],
     "tertiaryContainer": [
       "#",
-      "#ffb976e6"
+      "#ffca9ee6"
     ],
     "onTertiaryContainer": [
       "#",
@@ -63,7 +63,7 @@
     ],
     "onError": [
       "#",
-      "#fff12731"
+      "#ff232634"
     ],
     "errorContainer": [
       "#",
@@ -119,19 +119,19 @@
     ],
     "surfaceContainerLow": [
       "#",
-      "#ff292c3c"
+      "#ff363740"
     ],
     "surfaceContainer": [
       "#",
-      "#ff414559"
+      "#ff292c3c"
     ],
     "surfaceContainerHigh": [
       "#",
-      "#ff51576d"
+      "#ff303446"
     ],
     "surfaceContainerHighest": [
       "#",
-      "#ff51576d"
+      "#ff414559"
     ],
     "background": [
       "$",

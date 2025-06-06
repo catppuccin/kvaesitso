@@ -1,17 +1,17 @@
 {
   "name": "Catppuccin Macchiato Red",
   "corePalette": {
-    "primary": -3430665,
-    "secondary": -3430665,
+    "primary": null,
+    "secondary": null,
     "tertiary": null,
-    "neutral": -15198171,
-    "neutralVariant": -13553084,
-    "error": -816216
+    "neutral": null,
+    "neutralVariant": null,
+    "error": null
   },
   "darkColorScheme": {
     "primary": [
       "#",
-      "#ffe99ba6"
+      "#ffed8796"
     ],
     "onPrimary": [
       "#",
@@ -27,7 +27,7 @@
     ],
     "secondary": [
       "#",
-      "#ffe99ba6"
+      "#ffed8796"
     ],
     "onSecondary": [
       "#",
@@ -51,7 +51,7 @@
     ],
     "tertiaryContainer": [
       "#",
-      "#fff15b74"
+      "#ffed8796"
     ],
     "onTertiaryContainer": [
       "#",
@@ -63,7 +63,7 @@
     ],
     "onError": [
       "#",
-      "#fff82a50"
+      "#ff181926"
     ],
     "errorContainer": [
       "#",
@@ -119,19 +119,19 @@
     ],
     "surfaceContainerLow": [
       "#",
-      "#ff1e2030"
+      "#ff292a35"
     ],
     "surfaceContainer": [
       "#",
-      "#ff363a4f"
+      "#ff1e2030"
     ],
     "surfaceContainerHigh": [
       "#",
-      "#ff494d64"
+      "#ff24273a"
     ],
     "surfaceContainerHighest": [
       "#",
-      "#ff494d64"
+      "#ff363a4f"
     ],
     "background": [
       "$",

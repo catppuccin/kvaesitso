@@ -1,17 +1,17 @@
 {
   "name": "Catppuccin Frappé Sapphire",
   "corePalette": {
-    "primary": -3430665,
-    "secondary": -3430665,
+    "primary": null,
+    "secondary": null,
     "tertiary": null,
-    "neutral": -15198171,
-    "neutralVariant": -13553084,
-    "error": -816216
+    "neutral": null,
+    "neutralVariant": null,
+    "error": null
   },
   "darkColorScheme": {
     "primary": [
       "#",
-      "#ff99c4d9"
+      "#ff85c1dc"
     ],
     "onPrimary": [
       "#",
@@ -27,7 +27,7 @@
     ],
     "secondary": [
       "#",
-      "#ff99c4d9"
+      "#ff85c1dc"
     ],
     "onSecondary": [
       "#",
@@ -51,7 +51,7 @@
     ],
     "tertiaryContainer": [
       "#",
-      "#ff5db7dd"
+      "#ff85c1dc"
     ],
     "onTertiaryContainer": [
       "#",
@@ -63,7 +63,7 @@
     ],
     "onError": [
       "#",
-      "#fff12731"
+      "#ff232634"
     ],
     "errorContainer": [
       "#",
@@ -119,19 +119,19 @@
     ],
     "surfaceContainerLow": [
       "#",
-      "#ff292c3c"
+      "#ff363740"
     ],
     "surfaceContainer": [
       "#",
-      "#ff414559"
+      "#ff292c3c"
     ],
     "surfaceContainerHigh": [
       "#",
-      "#ff51576d"
+      "#ff303446"
     ],
     "surfaceContainerHighest": [
       "#",
-      "#ff51576d"
+      "#ff414559"
     ],
     "background": [
       "$",

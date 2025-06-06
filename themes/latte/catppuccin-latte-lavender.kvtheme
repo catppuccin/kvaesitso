@@ -1,17 +1,17 @@
 {
   "name": "Catppuccin Latte Lavender",
   "corePalette": {
-    "primary": -3430665,
-    "secondary": -3430665,
+    "primary": null,
+    "secondary": null,
     "tertiary": null,
-    "neutral": -15198171,
-    "neutralVariant": -13553084,
-    "error": -816216
+    "neutral": null,
+    "neutralVariant": null,
+    "error": null
   },
   "lightColorScheme": {
     "primary": [
       "#",
-      "#ff8998f7"
+      "#ff7287fd"
     ],
     "onPrimary": [
       "#",
@@ -27,7 +27,7 @@
     ],
     "secondary": [
       "#",
-      "#ff8998f7"
+      "#ff7287fd"
     ],
     "onSecondary": [
       "#",
@@ -51,7 +51,7 @@
     ],
     "tertiaryContainer": [
       "#",
-      "#ff4967ff"
+      "#ff7287fd"
     ],
     "onTertiaryContainer": [
       "#",
@@ -63,7 +63,7 @@
     ],
     "onError": [
       "#",
-      "#ff900024"
+      "#ffdce0e8"
     ],
     "errorContainer": [
       "#",
@@ -119,19 +119,19 @@
     ],
     "surfaceContainerLow": [
       "#",
-      "#ffe6e9ef"
+      "#fff2f2f4"
     ],
     "surfaceContainer": [
       "#",
-      "#ffccd0da"
+      "#ffe6e9ef"
     ],
     "surfaceContainerHigh": [
       "#",
-      "#ffbcc0cc"
+      "#ffeff1f5"
     ],
     "surfaceContainerHighest": [
       "#",
-      "#ffbcc0cc"
+      "#ffccd0da"
     ],
     "background": [
       "$",
