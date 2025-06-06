@@ -1,17 +1,17 @@
 {
   "name": "Catppuccin Mocha Teal",
   "corePalette": {
-    "primary": -3430665,
-    "secondary": -3430665,
+    "primary": null,
+    "secondary": null,
     "tertiary": null,
-    "neutral": -15198171,
-    "neutralVariant": -13553084,
-    "error": -816216
+    "neutral": null,
+    "neutralVariant": null,
+    "error": null
   },
   "darkColorScheme": {
     "primary": [
       "#",
-      "#ffa7dfd7"
+      "#ff94e2d5"
     ],
     "onPrimary": [
       "#",
@@ -27,7 +27,7 @@
     ],
     "secondary": [
       "#",
-      "#ffa7dfd7"
+      "#ff94e2d5"
     ],
     "onSecondary": [
       "#",
@@ -51,7 +51,7 @@
     ],
     "tertiaryContainer": [
       "#",
-      "#ff6ce2cd"
+      "#ff94e2d5"
     ],
     "onTertiaryContainer": [
       "#",
@@ -63,7 +63,7 @@
     ],
     "onError": [
       "#",
-      "#ffff2d70"
+      "#ff11111b"
     ],
     "errorContainer": [
       "#",
@@ -119,19 +119,19 @@
     ],
     "surfaceContainerLow": [
       "#",
-      "#ff181825"
+      "#ff23232b"
     ],
     "surfaceContainer": [
       "#",
-      "#ff313244"
+      "#ff181825"
     ],
     "surfaceContainerHigh": [
       "#",
-      "#ff45475a"
+      "#ff1e1e2e"
     ],
     "surfaceContainerHighest": [
       "#",
-      "#ff45475a"
+      "#ff313244"
     ],
     "background": [
       "$",
